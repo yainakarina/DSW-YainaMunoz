@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box y CSS Grid</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li>Temas</li>
+                <ul>
+                    <li><a href="#">Tema 1</a></li>
+                    <li><a href="#">Tema 2</a></li>
+                </ul>
+                <li>Recursos Digitales</li>
+                <ul>
+                    <li><a href="#">Recurso 1</a></li>
+                    <li><a href="#">Recurso 2</a></li>
+                </ul>
+                <li>Aprendizaje</li>
+                <ul>
+                    <li><a href="#">Actividad 1</a></li>
+                    <li><a href="#">Actividad 2</a></li>
+                </ul>
+                <li>Acerca del Autor</li>
+                <ul>
+                    <li><a href="#">Autor</a></li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>
+            <hr> Sitio web Flex Box y CSS Grid
+        </h1>
+        <h3>Propósito del sitio web</h3>
+        <p>Este sitio web tiene como propósito, proporcionar un recurso educativo digital, con información para el <br>
+            aprendizaje de la temática Flex Box y CSS Grid, correspondiente al Diseño de Sitios Web.
+        </p>
+    </section>
+    <article>
+        <h3>Borrador del contenido</h3>
+        <p>
+        <h4>Definición de las CCS (coding style sheets)</h4>
+        Las CSS (coding style sheets) son hojas de estilo en cascada, que permiten aplicar una o más reglas para dar una
+        <br>
+        apariencia a cada elemento de una página web. Se pueden aplicar diferentes hojas de estilo para una página web,
+        <br>
+        dependiendo de los dispositivos en los que se vea la misma. <br>
+
+        Cada regla de las hojas de estilo se compone de dos partes:
+        <li>Selector: indica a cuáles elementos se les va a aplicar la regla. Se pueden escribir varios selectores para
+            una <br>
+            misma regla, separados por coma (,).</li>
+        <li>Lista de declaraciones: son los estilos que se van a aplicar. Propiedad:valor, separados por punto y coma
+            (;).</li>
+        <h6>
+            Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. Paracuellos de Jarama, Madrid, RA-MA
+            Editorial. <br>
+            (pp 94-96). Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=94
+        </h6>
+        <h4>Tipos de selectores</h4>
+        Se presentan los diferentes tipos de selectores que se pueden utilizar en las reglas CSS. la imagen siguiente
+        muestra <br>
+        la pestaña de estilos de Google Crome que se ve con la herramienta de Inspección. <br>
+        <img src="Imagenes/InspeccionPropiedadesCSSGoogleCrome.JPG"
+            alt="Inspección de las propiedades de CSS en Google Crome">
+        <li>Selector universal: se define con * y se aplica a todos los elementos de la página.</li>
+        <li>Selector de etiqueta HTML: indican el estilo a aplicar a una etiqueta en concreto.</li>
+        <li>Selector de clase: indica el estilo a aplicar a todos los elementos de una clase determinada.</li>
+        <li>Selector de identificador: aplica un estilo único al elemento de la página con un determinado identificador.
+        </li>
+        <li>Selectores descendentes y adyacentes: permite seleccionar elementos contenidos dentro de otros según la
+            estructura DOM.</li>
+        <li>Selectores de atributos: permiten seleccionar elementos en función de sus atributos.</li>
+        <li>Pseudoclases: especiales para especificar elementos de propiedades determinadas.</li>
+        <h6>
+            Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. Paracuellos de Jarama, Madrid, RA-MA
+            Editorial. <br>
+            (pp 99-107). Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=94
+        </h6>
+        <h4>Principales listas de declaraciones</h4>
+        Las listas de declaraciones establecen las propiedades visuales de los elementos seleccionados. Las
+        declaraciones <br>
+        CSS admiten las unidades de porcentaje (tamaño en un tanto por ciento), em (tamaño de acuerdo al tamaño de la
+        fuente <br>
+        actual o heredada), px (tamaño en pixeles), cm (centímetros), mm (milímetros), in (pulgadas), pt (puntos):
+        <li>Propiedades de texto: color, tamaño de fuente, letra cursiva, negritas, subrayados y tachados, etc.</li>
+        <li>Propiedades de fondo</li>
+        <li>Dimensiones y bordes: ancho y alto de un elemento, margen externo e interno del elemento con respecto a
+            otro.</li>
+        <li>Propiedades de lista: tipo de marcador para una lista, si el marcador se incluye dentro o fuera del texto
+            del <br>
+            elemento, añadir una imagen como marcador</li>
+        <h6>
+            Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. Paracuellos de Jarama, Madrid, RA-MA
+            Editorial. <br>
+            (pp 108-112). Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=94
+        </h6>
+        <h4>Posición de los elementos de la página web</h4>
+        Es muy importante la posición de cada uno de los elementos de la página y se debe tomar en consideración que la
+        página <br>
+        debe adaptarse a diferentes tipos de dispositivos como tabletas, PC o teléfonos inteligentes. Para organizar
+        estos <br>
+        elementos se puede utilizar el modelo de posicionamiento flexible o Flexbox y el modelo de rejilla (CSS Grid),
+        estos <br>
+        pueden combinarse.
+        <h6>
+            Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. Paracuellos de Jarama, Madrid, RA-MA
+            Editorial. <br>
+            (p 113). Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=94
+        </h6>
+        <h4>Modelo flexible o Flebox</h4>
+        Este modelo permite hacer un diseño que se adapte a cualquier dispositivo, organizando los elementos de la
+        página <br>
+        dependiendo del cambio de dimensión y orientación de la misma. Para que se ajusten los cambios de dispositivo
+        fácilmente <br>
+        se define un contenedor flex (flex container) y dentro de éste elementos flex contenidos (flex item). También se
+        define <br>
+        un eje principal llamado main axis y un eje secundario llamado cross axis. <br>
+        Algunas propiedades de este modelo se muestran en las imágenes siguientes, estas son propiedad flex-direction,
+        propiedad <br>
+        flex-wrap, propiedad justify-content, propiedad align-items respectivamente: <br>
+        <img src="Imagenes/Flexbox-PropiedadFlexDirection.JPG" alt="Propiedad flex-direction">
+        <img src="Imagenes/Flexbox-PropiedadFlexWrap.JPG" alt="Propiedad flex-wrap">
+        <img src="Imagenes/Flexbox-PropiedadJustifyContent.JPG" alt="Propiedad justify-content"><br>
+        <img src="Imagenes/Flexbox-PropiedadAlignItems.JPG" alt="Propiedad align-items">
+        <img src="Imagenes/Flexbox-PropiedadesElementos.JPG" alt="Propiedades de los elementos"><br>
+        <li>Dirección de los elementos: permite ajustar la dirección de los elementos dentro del contenedor, en fila
+            (row), <br>
+            fila invertida (row-reverse), columna (column) o columna invertida (column-reverse).</li>
+        <li>Ajuste en el eje principal: permite ajustar los elementos para que se distribuyan en una sola fila o
+            columna.</li>
+        <li>Alineación del contenido: permite alinear los elementos respecto al eje principal del contenedor.</li>
+        <li>Ajuste en el eje secundario: permite ajustar los elementos con respecto al eje secundario.</li>
+        <li>Propiedades de los elementos: permiten ordenar e indican como ocupan el espacio los elementos.</li>
+        <h6>
+            Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. Paracuellos de Jarama, Madrid, RA-MA
+            Editorial. <br>
+            (pp 118-127). Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=94
+        </h6>
+        <h4>Modelo de rejilla</h4>
+        Este modelo divide la pantalla en cuadrículas y se selecciona la cantidad de celdas que ocupará cada elemento de
+        la <br>
+        página dependiendo del tipo de dispositivo. Este modelo ha sido popularizado por la librería Bootstrap, creada
+        por <br>
+        los desarrolladores de Twitter. Para hacer la disposición de celdas a utilizar se usan clases, las cuales
+        indican el <br>
+        número de columnas a utilizar cuando el navegador tenga un tamaño específico. <br>
+        En las imágenes siguientes se pueden observar cuadrículas en tamaño xs (extra small) para la mayoría de
+        teléfonos <br>
+        inteligentes, cuadrícula en tamaño sm (small) y cuadrícula en tamaño md (medium) para la mayoría de los
+        navegadores <br>
+        de escritorio; respectivamente: <br>
+        <img src="Imagenes/CuadriculaTamañoXS.JPG" alt="Cuadrículas en tamaño xs (extra small)">
+        <img src="Imagenes/CuadriculaTamañoSM.JPG" alt="Cuadrícula en tamaño sm (small)"><br>
+        <img src="Imagenes/CuadriculaTamañoMD.JPG" alt="Cuadrícula en tamaño md (medium)"> <br>
+        Las Media Queries, son las que permiten cambiar las propiedades CSS en este modelo dependiendo de las
+        características <br>
+        del tipo de dispositivo, a través de las reglas de las hojas de estilo. Son la base del diseño adaptativo.
+        <h6>
+            Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. Paracuellos de Jarama, Madrid, RA-MA
+            Editorial. <br>
+            (pp 128-130). Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=94
+        </h6>
+        </p>
+        <h3>
+            <hr> Mockup página principal del sitio web
+        </h3>
+        <img src="Imagenes/Mockup.JPG" alt="Mockup de la página principal del sitio web">
+    </article>
+    <footer>
+        <h6>
+            <hr><br>Correo: ymunozgar@unadvirtual.edu.co - Skype: yainakarina - Actualizado el 11/03/2021
+        </h6>
+    </footer>
+</body>
+
+</html>
