@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <link rel="stylesheet" href="ccs/estilos.css">
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <img src="imagenes/Titulo.JPG" alt="Titulo del Sitio Web">
+        </header>
+
+        <nav class="menu">
+            <ul>
+                <li> <a href="index.html">Inicio</a> </li>
+                <li><a href="#">Temas</a>
+                    <ul class="dropdown-1">
+                        <li><a href="tema1.html">Tema 1</a></li>
+                        <li><a href="#">Tema 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Recursos Digitales</a>
+                    <ul class="dropdown-1">
+                        <li><a href="recurso1.html">Recurso 1</a> </li>
+                        <li><a href="recurso2.html">Recurso 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Aprendizaje</a>
+                    <ul class="dropdown-1">
+                        <li><a href="#">Actividad 1</a></li>
+                        <li><a href="#">Actividad 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="autor.html">Acerca del Autor</a></li>
+            </ul>
+        </nav>
+
+        <section>
+
+            <center>
+                <h3>Tema 2 - Modelo Flexbox y Modelo Rejilla</h3>
+                <img src="imagenes/Flexbox.jpg" alt="Flexbox">
+                <img src="imagenes/Cuadricula.jpg" alt="Cuadrícula">
+            </center>
+
+            <ul>
+                <h6>Qgekdzgg. (s.f.). CSS flex diseño del cuadro de diseño de la Página Hojas de Estilo en Cascada
+                    HTML Columna - columna Imágen de Png. [Imagen]. Recuperado de: https://www.freepng.es/png-9bd328/
+                </h6>
+                <h6>Justinhenry820. (s.f.). CSS diseño de cuadrícula de diseño de la Página Hojas de Estilo en
+                    Cascada
+                    CSS flex-diseño del cuadro de - diseño Imágen de Png. [Imagen]. Recuperado de:
+                    https://www.freepng.es/png-ds36kl/
+                </h6>
+            </ul>
+
+            <ul class="seccion-tema2">
+                <p><br>Es muy importante la posición de cada uno de los elementos de la página y se debe tomar en
+                    consideración que la página debe adaptarse a diferentes tipos de dispositivos como tabletas, PC o
+                    teléfonos inteligentes. Para organizar estos elementos se puede utilizar el modelo de
+                    posicionamiento flexible o Flexbox y el modelo de rejilla (CSS Grid), estos pueden combinarse.</p>
+            </ul>
+
+            <ul>
+                <h6>
+                    Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. Paracuellos de Jarama, Madrid,
+                    RA-MA Editorial. (pp 113). Recuperado de
+                    https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=94
+                </h6>
+            </ul>
+
+            <article>
+                <center>
+                    <h3>Modelo flexible o Flebox</h3>
+                </center>
+
+                <ul class="articulo-tema2">
+                    <p><br>Este modelo permite hacer un diseño que se adapte a cualquier dispositivo, organizando los
+                        elementos de la página dependiendo del cambio de dimensión y orientación de la misma. Para que
+                        se ajusten los cambios de dispositivo fácilmente <br>se define un contenedor flex (flex
+                        container) y
+                        dentro de éste elementos flex contenidos (flex item). También se define un eje principal llamado
+                        main axis y un eje secundario llamado cross axis.
+                        <br><br>Algunas propiedades de este modelo se muestran en las imágenes siguientes, estas son
+                        propiedad flex-direction, propiedad flex-wrap, propiedad justify-content, propiedad align-items
+                        respectivamente:
+                        <br>
+                        <li>Dirección de los elementos: permite ajustar la dirección de los elementos dentro del
+                            contenedor,
+                            en fila (row), fila invertida (row-reverse), columna (column) o columna invertida
+                            (column-reverse).</li>
+                        <li>Ajuste en el eje principal: permite ajustar los elementos para que se distribuyan en una
+                            sola
+                            fila o columna.</li>
+                        <li>Alineación del contenido: permite alinear los elementos respecto al eje principal del
+                            contenedor.</li>
+                        <li>Ajuste en el eje secundario: permite ajustar los elementos con respecto al eje secundario.
+                        </li>
+                        <li>Propiedades de los elementos: permiten ordenar e indican como ocupan el espacio los
+                            elementos.
+                        </li>
+                    </p>
+                </ul>
+
+                <center>
+                    <img height="200px" src="Imagenes/Flexbox-PropiedadFlexDirection.JPG"
+                        alt="Propiedad flex-direction">
+                    <img height="200px" src="Imagenes/Flexbox-PropiedadFlexWrap.JPG" alt="Propiedad flex-wrap">
+                    <img height="200px" src="Imagenes/Flexbox-PropiedadJustifyContent.JPG"
+                        alt="Propiedad justify-content">
+                    <img height="200px" src="Imagenes/Flexbox-PropiedadAlignItems.JPG" alt="Propiedad align-items">
+                    <img height="100px" src="Imagenes/Flexbox-PropiedadesElementos.JPG"
+                        alt="Propiedades de los elementos">
+                </center>
+
+                <ul>
+                    <h6>
+                        Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. Paracuellos de Jarama, Madrid,
+                        RA-MA Editorial. (pp 118-127). Recuperado de:
+                        https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=94
+                    </h6>
+                </ul>
+            </article>
+
+            <article>
+                <center>
+                    <h3>Modelo Rejilla</h3>
+                </center>
+
+                <ul class="articulo2-tema2">
+                    <p><br>Este modelo divide la pantalla en cuadrículas y se selecciona la cantidad de celdas que
+                        ocupará cada elemento de la página dependiendo del tipo de dispositivo. Este modelo ha sido
+                        popularizado por la librería Bootstrap, creada por los desarrolladores de Twitter. Para hacer la
+                        disposición de celdas a utilizar se usan clases, las cuales indican el número de columnas a
+                        utilizar cuando el navegador tenga un tamaño específico.
+                        <br><br>Las Media Queries, son las que permiten cambiar las propiedades CSS en este modelo
+                        dependiendo de las características del tipo de dispositivo, a través de las reglas de las hojas
+                        de estilo. Son la base del diseño adaptativo.
+                        <br><br>Las imágenes muestran las cuadrículas en tamaño xs (extra small) para la mayoría de
+                        teléfonos inteligentes, cuadrícula en tamaño md (medium) para la mayoría de los navegadores de
+                        escritorio y cuadrícula en tamaño sm (small); respectivamente:
+                    </p>
+                </ul>
+
+                <center>
+                    <img height="200px" src="Imagenes/CuadriculaTamañoXS.JPG"
+                        alt="Cuadrículas en tamaño xs (extra small)">
+                    <img width="340" src="Imagenes/CuadriculaTamañoMD.JPG" alt="Cuadrícula en tamaño md (medium)">
+                    <img height="200px" src="Imagenes/CuadriculaTamañoSM.JPG" alt="Cuadrícula en tamaño sm (small)"><br>
+                </center>
+            </article>
+
+        </section>
+
+        <aside>
+            <h3>Red Social Facebook - UNAD</h3>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=1600&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="1600" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+            </iframe>
+        </aside>
+
+        <footer>
+            <h6>Correo: ymunozgar@unadvirtual.edu.co - Skype: yainakarina - Actualizado el 11/04/2021</h6>
+        </footer>
+
+    </main>
+</body>
+
+</html>
