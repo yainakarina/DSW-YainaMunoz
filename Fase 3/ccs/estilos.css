@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial;
     color: black;
@@ -8,7 +12,7 @@ body {
 main {
     display: grid;
     grid-template-columns: 40% 30% 29%;
-    gap: 0.5em;
+    grid-gap: 0.5em;
 }
 
 header{
@@ -74,7 +78,7 @@ section{
     background-color: rgb(248, 202, 52);
 }
 
-.seccion-tema1{
+.tema1{
     background-color: rgb(63, 63, 63) ;
     color: white;
     height: 190px;
@@ -90,12 +94,6 @@ section{
     background-color: rgb(63, 63, 63);
     color: white;
     height: 110px;
-}
-
-.articulo2-tema1{
-    background-color: rgb(63, 63, 63);
-    color: white;
-    height: 190px;
 }
 
 .articulo-tema2{
