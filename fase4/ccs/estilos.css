@@ -17,6 +17,13 @@ body {
     }
 }
 
+@media(max-width:660px){
+    main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 header{
     grid-column: 1/4;
     background-color: goldenrod;
