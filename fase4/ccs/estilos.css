@@ -9,18 +9,11 @@ body {
     box-sizing: border-box;
 }
 
-@media(min-width:660px){
+@media(max-width:660px){
     main {
         display: grid;
         grid-template-columns: 40% 30% 29%;
         grid-gap: 0.5em;
-    }
-}
-
-@media(max-width:660px){
-    main {
-        width: 100%;
-        float: none;
     }
 }
 
