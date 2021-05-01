@@ -16,9 +16,6 @@ body {
         grid-gap: 0.5em;
     }
 
-    header {
-        grid-column: 1/4;
-    }
 }
 
 @media(max-width:660px){
@@ -29,7 +26,7 @@ body {
 }
 
 header{
-    
+    grid-column: 1/4;
     background-color: goldenrod;
     text-align: center;
 }
