@@ -43,6 +43,13 @@ body {
         text-align: center;
     }
 
+    .dropdown-1 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+    }
+
     .container {
         background-color: rgb(197, 62, 62);
     }
