@@ -36,6 +36,11 @@ body {
         text-align: center;
     }
 
+    .imagen-proposito{
+        width:300px;
+        height:60px;
+    }
+
     .container {
         background-color: rgb(197, 62, 62);
     }
@@ -83,7 +88,6 @@ header{
     position: relative;
 }
 
-
 .dropdown-1 {
     position: absolute;
     display: flex;
@@ -118,6 +122,7 @@ section{
     background-color: rgb(63, 63, 63);
     color: white;
     height: 110px;
+    overflow: auto;
 }
 
 .articulo-tema2{
