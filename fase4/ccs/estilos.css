@@ -19,6 +19,7 @@ body {
 
 
 header{
+    width: 100%;
     grid-column: 1/4;
     background-color: goldenrod;
     text-align: center;
