@@ -19,7 +19,6 @@ body {
 
 
 header{
-    max-width: 100%;
     grid-column: 1/4;
     background-color: goldenrod;
     text-align: center;
@@ -86,6 +85,7 @@ section{
     background-color: rgb(63, 63, 63) ;
     color: white;
     height: 190px;
+    overflow: auto;
 }
 
 .seccion-tema2{
