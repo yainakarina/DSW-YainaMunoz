@@ -165,6 +165,11 @@ footer{
     background-color: black;
 }
 
+.cuestionario{
+    width:800px;
+    height:2570px;
+}
+
 .col-8{
     background-color: rgb(248, 202, 52);
     text-align: center;
