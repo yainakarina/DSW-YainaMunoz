@@ -85,10 +85,10 @@ header{
 
 
 .dropdown-1 {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
-    width: 60px;
+    width: 100%;
 }
 
 .dropdown-1 li:hover {
