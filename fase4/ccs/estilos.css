@@ -17,6 +17,9 @@ body {
     }
 }
 
+    main {
+        background-color: black;
+    }
 
 header{
     grid-column: 1/4;
@@ -52,7 +55,7 @@ nav{
 
 .menu li {
     position: relative;
-    width: 50%;
+    width: 300px;
     text-align: center;
 }
 
@@ -70,7 +73,7 @@ nav{
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50px;
 }
 
 .dropdown-1 li:hover {
@@ -135,6 +138,7 @@ footer{
 
 .container{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 .col-8{
