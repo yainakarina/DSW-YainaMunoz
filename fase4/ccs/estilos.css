@@ -26,7 +26,7 @@ body {
 @media(max-width:660px){
     .menu li {
         position: relative;
-        width: 65px;
+        width: 60px;
         text-align: center;
     }
 
@@ -86,7 +86,7 @@ header{
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 50px;
+    width: 60px;
 }
 
 .dropdown-1 li:hover {
