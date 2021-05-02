@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     font-family: Arial;
@@ -10,6 +8,10 @@ body {
 }
 
 @media(min-width:660px){
+    * {
+        box-sizing: border-box;
+    }
+    
     main {
         display: grid;
         grid-template-columns: 40% 30% 29%;
@@ -41,7 +43,7 @@ body {
         height:60px;
     }
 
-    .menu {
+    .container {
         background-color: black;
     }
 }
