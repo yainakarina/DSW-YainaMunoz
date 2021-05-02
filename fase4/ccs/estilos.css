@@ -43,7 +43,12 @@ body {
     }
 
     .cuestionario{
-        height: 300;
+        width: 300;
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .nav {
