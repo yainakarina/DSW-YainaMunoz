@@ -32,7 +32,7 @@ nav{
 .menu a {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     color: white;
     background: black;
     height: 30px;
@@ -84,7 +84,7 @@ section{
 .tema1{
     background-color: rgb(63, 63, 63) ;
     color: white;
-    height: 190px;
+    height: 200px;
     overflow: auto;
 }
 
