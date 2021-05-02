@@ -21,9 +21,15 @@ body {
         width: 300px;
         text-align: center;
     }
+    
+    nav{
+        grid-column: 1/4;
+        background-color: black;
+    }
 }
 
 @media(max-width:660px){
+
     .menu li {
         position: relative;
         width: 50px;
@@ -36,11 +42,6 @@ body {
 }
 
 main {
-    background-color: black;
-}
-
-nav{
-    grid-column: 1/4;
     background-color: black;
 }
 
@@ -86,7 +87,7 @@ header{
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 60px;
+    width: 50px;
 }
 
 .dropdown-1 li:hover {
