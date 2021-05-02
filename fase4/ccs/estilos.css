@@ -21,12 +21,17 @@ body {
         width: 300px;
         text-align: center;
     }
+
+    nav{
+        grid-column: 1/4;
+        background-color: black;
+    }
 }
 
 @media(max-width:660px){
     .menu li {
         position: relative;
-        width: 50px;
+        width: 60px;
         text-align: center;
     }
 
@@ -45,10 +50,6 @@ header{
     text-align: center;
 }
 
-nav{
-    grid-column: 1/4;
-    background-color: black;
-}
 
 .menu a {
     display: flex;
