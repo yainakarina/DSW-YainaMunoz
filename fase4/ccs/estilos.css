@@ -32,15 +32,16 @@ nav{
 .menu a {
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     color: white;
-    background: black;
+    background-color: black;
     height: 30px;
     text-decoration: none;
 }
 
 .menu a:hover {
     background: grey;
+    justify-content: center;
     color:white;
 }
 
@@ -51,7 +52,7 @@ nav{
 
 .menu li {
     position: relative;
-    width: 100%;
+    width: 50%;
     text-align: center;
 }
 
