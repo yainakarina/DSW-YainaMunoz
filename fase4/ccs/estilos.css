@@ -26,8 +26,12 @@ body {
 @media(max-width:660px){
     .menu li {
         position: relative;
-        width: 100px;
+        width: 50px;
         text-align: center;
+    }
+
+    .container {
+        background-color: rgb(197, 62, 62);
     }
 }
 
