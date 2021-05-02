@@ -28,7 +28,7 @@ body {
     }
 
     .dropdown-1 {
-        position: absolute;
+        position: relative;
         display: flex;
         flex-direction: column;
         width: 60px;
