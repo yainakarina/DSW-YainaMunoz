@@ -17,9 +17,6 @@ body {
     }
 }
 
-.imagen{
-    max-width: 340px;
-}
 
 header{
     grid-column: 1/4;
