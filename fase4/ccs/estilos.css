@@ -50,17 +50,17 @@ body {
 
     .menu li {
         position: relative;
-        width: 60px;
+        width: 50px;
         text-align: center;
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .dropdown-1 {
         position: absolute;
         display: flex;
         flex-direction: column;
-        width: 60%;
-        font-size: 11px;
+        width: 50%;
+        font-size: 10px;
     }
 
     .imagen-proposito{
