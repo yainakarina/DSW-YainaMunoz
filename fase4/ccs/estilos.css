@@ -205,7 +205,7 @@ footer{
     background-color: black;
 }
 
-.col-8{
+.col-md-8{
     background-color: rgb(248, 202, 52);
     text-align: center;
 }
@@ -215,7 +215,7 @@ footer{
     text-align: center;
 }
 
-.col-4{
+.col-md-4{
     background-color: goldenrod; 
     text-align: center;
 }
