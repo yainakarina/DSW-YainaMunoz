@@ -4,8 +4,8 @@
 
 body {
     font-family: Arial;
-    color: black;
     margin: 5;
+    background-color: black;
     box-sizing: border-box;
 }
 
@@ -33,13 +33,18 @@ body {
         height: 2180px;
     }
 
+    .audio{
+        width: 800px;
+        height: 400px
+    }
+
 }
 
 @media(max-width:660px){
 
     .menu li {
         position: relative;
-        width: 70px;
+        width: 60px;
         text-align: center;
     }
 
@@ -61,6 +66,11 @@ body {
     .cuestionario {
         width: 300px;
         height: 1000px;
+    }
+
+    .audio{
+        width: 300px;
+        height: 370px
     }
 
     .container{
@@ -87,6 +97,7 @@ header{
     background-color: black;
     height: 30px;
     text-decoration: none;
+    overflow:auto;
 }
 
 .menu a:hover {
@@ -198,7 +209,6 @@ footer{
 
 .col-4{
     background-color: goldenrod; 
-    font-weight: bold;
     text-align: center;
 }
 
