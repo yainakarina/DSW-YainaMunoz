@@ -52,7 +52,7 @@ body {
         position: relative;
         width: 70px;
         text-align: center;
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .dropdown-1 {
@@ -60,7 +60,7 @@ body {
         display: flex;
         flex-direction: column;
         width: 50%;
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .imagen-proposito{
