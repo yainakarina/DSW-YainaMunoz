@@ -38,6 +38,12 @@ body {
         height: 400px
     }
 
+    .dropdown-1 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 @media(max-width:660px){
@@ -46,6 +52,15 @@ body {
         position: relative;
         width: 60px;
         text-align: center;
+        font-size: 11px;
+    }
+
+    .dropdown-1 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        font-size: 11px;
     }
 
     .imagen-proposito{
@@ -119,13 +134,6 @@ header{
 .dropdown-1 li {
     display: none;
     position: relative;
-}
-
-.dropdown-1 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
 }
 
 .dropdown-1 li:hover {
