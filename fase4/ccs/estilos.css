@@ -5,7 +5,7 @@
 body {
     font-family: Arial;
     margin: 5;
-    background-color: black;
+    
     box-sizing: border-box;
 }
 
@@ -202,7 +202,6 @@ footer{
 
 .container{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
 }
 
 .col-md-8{
