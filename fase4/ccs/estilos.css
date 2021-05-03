@@ -32,6 +32,7 @@ body {
         width: 800px;
         height: 2180px;
     }
+
 }
 
 @media(max-width:660px){
@@ -52,10 +53,10 @@ body {
     }
 
     .row {
-        flex-direction: row;
-        align-items: flex-start;
+        flex-direction: column;
+        align-items: center;
     }
-
+    
     .cuestionario {
         width: 300px;
         height: 1000px;
