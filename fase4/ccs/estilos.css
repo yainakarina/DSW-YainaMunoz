@@ -273,6 +273,12 @@ footer{
     text-align: center;
 }
 
+.pagina-unad{
+    font-size: 16px;
+    color:darkblue;
+    font-weight: bold;
+}
+
 .p-3{
     color: white; 
     background-color: black; 
