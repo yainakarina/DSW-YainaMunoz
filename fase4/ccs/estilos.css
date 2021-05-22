@@ -156,14 +156,15 @@ section{
 .seccion-tema2{
     background-color: rgb(63, 63, 63);
     color: white;
-    height: 90px;
+    height: 85px;
     overflow: auto;
+    text-align: justify;
 }
 
 .articulo{
     background-color: rgb(63, 63, 63);
     color: white;
-    height: 75px;
+    height: 100px;
     overflow: auto;
 }
 
@@ -180,6 +181,7 @@ section{
     color: white;
     height: 215px;
     overflow: auto;
+    text-align: justify;
 }
 
 .articulo-autor{
