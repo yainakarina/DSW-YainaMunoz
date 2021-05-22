@@ -92,6 +92,55 @@ body {
     }
 }
 
+.imagen-titulo{
+    width:300px;
+    height:100px;
+}
+
+.imagen-conocimiento{
+    width:300px;
+    height:150px;
+}
+
+.imagen-css{
+    width:60px;
+    height:80px;
+}
+
+.imagen-tema1-titulo{
+    width:300px;
+    height:80px;
+}
+
+.imagen-selectores{
+    width:300px;
+    height:300px;
+}
+
+.imagen-flexbox-cuadricula{
+    width:150px;
+    height:80px;
+}
+
+.imagen-propiedades{
+    width:100px;
+    height:140px;
+}
+
+.imagen-propiedades1{
+    width:200px;
+    height:80px;
+}
+
+.imagen-cuadricula{
+    width:200px;
+    height:100px;    
+}
+
+.imagen-autor{
+    width:300px;    
+}
+
 main {
     background-color: black;
 }
